@@ -28,7 +28,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: all 1s ease;
+    transition: all 1.5s ease;
 }
 
 .header {
