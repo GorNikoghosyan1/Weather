@@ -1,11 +1,11 @@
-Сайт для погоды
+Вебсайт для погоды
 В проекте использованы:
 HTML
 CSS
 JavaScript
 Вебсайт: https://nikoghosyangor7-spec.github.io/Weather/
 
-Weather App
+Weather website
 Technologies used:
 HTML
 CSS
