@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <h1 class="title">Погода в Гюмри</h1>
+        </header>
+        <div class="content-wrapper">
+        <div class="content">
+            <div class="grid">
+                <div class="grid-child">
+                    <h2 class="grid-child-title">Температура</h2>
+                    <p class="grid-child-text" id="temp-C"></p>
+                </div>
+                <div class="grid-child">
+                    <h2 class="grid-child-title">Ощущается как</h2>
+                    <p class="grid-child-text" id="Feels-Like-C"></p>
+                </div>
+                <div class="grid-child">
+                    <h2 class="grid-child-title">Влажность</h2>
+                    <p class="grid-child-text" id="humidity"></p>
+                </div>
+                <div class="grid-child">
+                    <h2 class="grid-child-title">Скорость ветра</h2>
+                    <p class="grid-child-text" id="wind-speed"></p>
+                </div>
+                <div class="grid-child">
+                    <h2 class="grid-child-title">Давление</h2>
+                    <p class="grid-child-text" id="pressure"></p>
+                </div>
+                <div class="grid-child">
+                    <h2 class="grid-child-title">Видимость</h2>
+                    <p class="grid-child-text" id="visibility"></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
