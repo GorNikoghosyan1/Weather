@@ -11,12 +11,14 @@ btn.addEventListener('click', function () {
   main.style.opacity = '0.2';
   menu.style.opacity = '1';
   menu.style.visibility = 'visible';
+  menu.style.transform = 'translate(0px,0px)';
 });
 
 icon.addEventListener('click', function () {
   main.style.opacity = '1';
   menu.style.opacity = '0';
   menu.style.visibility = 'hidden';
+  menu.style.transform = 'translate(-20px,0px)';
 });
 
 function getWeather(city, titleAttribute) {
@@ -52,6 +54,7 @@ menuLink.forEach(function (button) {
     getWeather(selectedCity, titleAttribute);
     main.style.opacity = '1';
     menu.style.opacity = '0';
+    menu.style.transform = 'translate(-20px,0px)';
     menu.style.visibility = 'hidden';
   });
 });
