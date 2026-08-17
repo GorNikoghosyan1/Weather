@@ -72,7 +72,7 @@ body {
 
 .menu {
     opacity: 0;
-    transform: translate(-20px,0px);
+    transform: translate(-20px, 0px);
     width: 350px;
     max-width: 90%;
     background: #405892;
