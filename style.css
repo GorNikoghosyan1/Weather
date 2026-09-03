@@ -44,6 +44,7 @@ body {
 }
 
 .title {
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -174,6 +175,11 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+.grid-child:hover{
+    transform: translate(5px,-5px);
 }
 
 .grid-child-title {
@@ -188,6 +194,7 @@ body {
 
 @media(max-width:850px) {
     .content {
+        width: 90%;
         margin-top: 30px;
         margin-bottom: 30px;
     }
@@ -198,11 +205,5 @@ body {
 
     .grid-child {
         width: 100%;
-    }
-}
-
-@media(max-width:400px) {
-    .content {
-        width: 90%;
     }
 }
